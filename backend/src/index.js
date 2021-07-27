@@ -2,6 +2,10 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
+/**
+ * OpenWeather API:
+ * https://openweathermap.org/current#geo
+ */
 const OPENWEATHER_API_KEY='';
 
 app.get('/', (req, res) => {
